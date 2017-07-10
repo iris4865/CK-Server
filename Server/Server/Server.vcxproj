@@ -111,6 +111,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Kstring.cpp" />
+    <ClCompile Include="MainControl.cpp" />
+    <ClCompile Include="Socket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kstring.h" />
+    <ClInclude Include="Socket.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
