@@ -1,6 +1,6 @@
 #include "Kstring.h"
 
-int Kstring::compare(const char* first,const char* second)
+int Kstring::compare(const char* first, const char* second)
 {
 	int firstSize = sizeof(first);
 	int secondSize = sizeof(second);
